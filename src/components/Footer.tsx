@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, MapPin, Facebook, Instagram, Twitter, Shield, Lock, Award, Heart } from 'lucide-react';
+import { Mail, Phone, MapPin, Facebook, Instagram, Twitter, Shield, Lock, Award } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -11,7 +11,11 @@ const Footer: React.FC = () => {
           <div className="lg:col-span-1">
             <div className="flex items-center mb-6">
               <div className="w-12 h-12 gradient-primary rounded-xl flex items-center justify-center">
-                <Heart className="w-6 h-6 text-white" />
+                <img 
+                  src="https://i.imgur.com/mUFPOIC.png" 
+                  alt="Cutty Kiddies Logo" 
+                  className="w-8 h-8 object-contain"
+                />
               </div>
               <div className="ml-3">
                 <h3 className="text-2xl font-bold">

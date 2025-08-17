@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, X, Star, Shield, Heart } from 'lucide-react';
+import { Menu, X, Star, Shield } from 'lucide-react';
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,7 +12,11 @@ const Header: React.FC = () => {
           <div className="flex items-center">
             <div className="relative">
               <div className="w-12 h-12 gradient-primary rounded-xl flex items-center justify-center">
-                <Heart className="w-6 h-6 text-white" />
+                <img 
+                  src="https://i.imgur.com/mUFPOIC.png" 
+                  alt="Cutty Kiddies Logo" 
+                  className="w-8 h-8 object-contain"
+                />
               </div>
               <div className="absolute -top-1 -right-1">
                 <Star className="w-4 h-4 text-yellow-400 fill-current" />
